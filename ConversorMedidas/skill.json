@@ -1,0 +1,52 @@
+{
+  "manifest": {
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "uri": "arn:aws:lambda:us-east-1:730335320509:function:fabfd903-ab15-48de-a832-0beb0640ad1f:Release_0"
+        },
+        "interfaces": [],
+        "locales": {},
+        "regions": {
+          "NA": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:us-east-1:730335320509:function:fabfd903-ab15-48de-a832-0beb0640ad1f:Release_0"
+            }
+          },
+          "EU": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:eu-west-1:730335320509:function:fabfd903-ab15-48de-a832-0beb0640ad1f:Release_0"
+            }
+          },
+          "FE": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:us-west-2:730335320509:function:fabfd903-ab15-48de-a832-0beb0640ad1f:Release_0"
+            }
+          }
+        }
+      }
+    },
+    "manifestVersion": "1.0",
+    "publishingInformation": {
+      "distributionCountries": [],
+      "isAvailableWorldwide": true,
+      "locales": {
+        "en-US": {
+          "description": "Sample Full Description",
+          "examplePhrases": [
+            "Alexa open hello world",
+            "hello",
+            "help"
+          ],
+          "keywords": [],
+          "name": "Conversor Truper",
+          "summary": "Sample Short Description"
+        },
+        "es-MX": {
+          "name": "Conversor Truper"
+        }
+      },
+      "testingInstructions": "Sample Testing Instructions."
+    }
+  }
+}
